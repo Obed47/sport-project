@@ -1,0 +1,33 @@
+
+.testimonies .test1
+{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    height: 100px;
+    background-color: rgb(223, 223, 223);
+    box-shadow: 2px 2px 2px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+.testimonies .test1 .profile
+{
+    width: 10%;
+    height: 80%;
+    border: 1px solid blue;
+    border-radius: 80%;
+    margin: auto;
+
+}
+.testimonies .test1 .text3
+{
+    width: 50%;
+    margin: auto;
+}
+.testimonies .testTitle
+{
+    width: 100%;
+    text-align: center;
+}
+

@@ -1,0 +1,77 @@
+
+.buts
+{
+    margin:20px;
+    position:absolute;
+    right: 20px;
+}
+.buts button
+{
+    margin: 10px;
+    transition: 300ms;
+    
+}
+.buts .sign
+{
+    border: none;
+    width: 100px;
+    height: 40px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-weight: 500;
+    animation: border 2s infinite;
+
+}
+.buts .log
+{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    color: white;
+
+}
+.buts .log:hover
+{
+    height: 40px;
+    background-color: rgb(6, 6, 199);
+}
+.buts .sign:hover
+{
+    background-color: blue;
+    color: white;
+
+}
+@keyframes border
+{
+    25%
+    {
+        border: 1px solid blue;
+    }
+    50%
+    {
+        border: 1px solid rgb(226, 0, 0);
+
+    }
+    75%
+    {
+        border: 1px solid rgb(81, 221, 0);
+    }
+    100%
+    {
+        border: 1px solid aqua;
+    }
+}
+@keyframes pass
+{
+    from
+    {
+        margin: 0px;
+    }
+    to 
+    {
+        margin: auto;
+    }
+}

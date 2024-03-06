@@ -1,0 +1,17 @@
+.foot
+{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+
+    display: flex;
+    margin: auto;
+
+}
+.foot p
+{
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.548);
+}

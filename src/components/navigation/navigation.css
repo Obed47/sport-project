@@ -1,0 +1,45 @@
+
+.main
+{
+    height: 50px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.555);
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient(to top left, rgba(83, 83, 83, 0.712),rgba(0, 0, 255, 0.774),white);   
+}
+.main .links a
+{
+    text-decoration: none;
+    margin: 15px;
+    position:static;
+    right: 20px;
+    font-weight: bold;
+    color: white;
+}
+.main .links
+{
+    position: absolute;
+    right: 20px;
+    margin:15px;
+}
+.main .title
+{
+    font-weight: bolder;
+    margin-left: 20px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.main .logo
+{
+    margin: 15px;
+}
+.main .title a
+{
+    text-decoration: none;
+    color: white;
+}
+.main .title a:hover 
+{
+    color: blue;
+}

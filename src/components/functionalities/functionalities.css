@@ -1,0 +1,41 @@
+.functionalities
+{
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+}
+.functionalities .circle
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: rgb(221, 221, 221);
+    margin: auto;
+    box-shadow: 2px 2px 2px ;
+    backdrop-filter: blur(.7rem);
+    background-image: url(../../images/young\ woman\ does\ yoga.png);
+    background-position: center;
+    background-size: contain;
+}
+
+@keyframes Rotate
+{
+    25%
+    {
+        rotate: 0deg;
+    }
+    50%
+    {
+        rotate: 180%;
+    }
+    75%
+    {
+        rotate: 240deg;
+
+    }
+    100%
+    {
+        rotate: 360deg;
+    }
+}
